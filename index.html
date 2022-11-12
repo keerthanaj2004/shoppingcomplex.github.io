@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        h1,h2{
+            font-family: 'Tangerine',serif;
+            font-weight: 700;
+            text-align: center;
+        }
+        h1{
+            font-size: 72px;
+            margin-top: 5px;
+        }
+        h2{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        #image{
+            width: 90%;
+            height: 300px;
+            margin: 0%;
+        }
+        .jumbotron{
+            margin:0%;
+            box-shadow: 0 6px 20px 0 rgba(139, 135, 135, 0.19);
+        }
+
+        .section1{
+            margin-top: 50px;
+            padding: 20px;
+            background-color: rgb(209, 201, 201);
+        }
+        .section1 .sectioncontainer{
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 100px;
+            flex-wrap: nowrap;
+            overflow: auto;
+        }
+
+        .section1 .sectioncontainer .card{
+            display: inline-block;
+            background-color: whitesmoke;
+            width: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section1 .sectioncontainer .card h3{
+            padding: 0%;
+            margin-left: 10px;
+            margin-bottom: 1px;
+        }
+        .section1 .sectioncontainer .card img{
+            width: auto;
+            height: auto;
+            max-width: 270px;
+            max-height: 200px;
+            padding: 20px;
+        }
+
+        .section1 .sectioncontainer .card .button{
+            margin: 5px;
+            width: 290px;
+            padding: 8px;
+            border-radius: 10px;
+            background-color: rgb(247, 200, 91);
+        }
+
+    </style>
+</head>
+<body>
+    <header >
+        <div class="jumbotron">
+            <h1>Welcome to Shopping Complex</h1>
+            <img src="jumbotronfinal.jpg" alt="jumbotron" id="image">
+            <h2>Happy Shopping</h2>
+        </div>  
+    </header>
+    
+    <body>
+        <section class="section1">
+            <div class="sectioncontainer">
+                <div class="card">
+                    <h3>Amazon</h3>
+                    <a href="https://www.amazon.com/"><img src="amazon.png" alt="illa" srcset=""></a>
+                    
+                    <button class="button">Go to site</button>
+                </div>
+
+                <div class="card">
+                    Flipkart
+                </div>
+
+                <div class="card">
+                    Myntra
+                </div>
+
+                <div class="card">
+                    ajio
+                </div>
+            </div>
+        </section>
+    </body>
+</body>
+</html>
